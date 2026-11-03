@@ -46,5 +46,5 @@ The board replies with `ready`, `OK` or `ERR`.
 2. Build and flash to the board.
 
 ## Authors
-- Your Name
-- Friend Name
+- Helia khalilirad
+- Negin safari
