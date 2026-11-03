@@ -49,6 +49,15 @@
 modules.order
 Module.symvers
 Mkfile.old
+
+# STM32CubeIDE
+Debug/
+Release/
+.settings/
+*.elf
+*.map
+*.list
+*.launch
 dkms.conf
 
 # debug information files
