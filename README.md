@@ -36,10 +36,11 @@ This project is a small embedded temperature controller built on an STM32F103 mi
 | LED / load on TIM8 CH2 (PC7) | PWM output |
 
 ## Features
+
 - LCD menu with three entries: **Desired**, **offset**, **Tune Temp**
 - Set the desired temperature and the offset by buttons (**Hand Tune**) or via **UART**
 - Settings are saved in the internal Flash and restored after reset
-  (defaults: temperature = 25, offset = 2)
+  - Defaults: temperature = 25, offset = 2
 - Live temperature display from the MPU6050
 - PWM duty cycle proportional to the error: `duty = min(|error| x 4, 100)` percent
 - Blinking LED confirms that a value was saved
